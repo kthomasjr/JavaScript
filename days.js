@@ -1,5 +1,5 @@
 
-
+// gets the day of the week using getDay() method
 function myDate() {
   let a = new Date();
   let r = a.getDay();
@@ -9,7 +9,7 @@ function myDate() {
 
 const day = myDate();
 
-// still figuring out switch statements, output number of days until Saturday
+// takes input from myDate() and sends alert to browser, output number of days until Saturday
 
 switch (day) {
   case 0:
